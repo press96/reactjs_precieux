@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font: 13px AvalonMedium, Arial, sans-serif;
+  Margin: 0px 0px 15px;
 }
 
 .App-logo {
@@ -35,4 +37,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  margin:0;
+  padding:0;
+  background:#0a0a02;
+  float:left;
+  width:100%;
+}
+
+.button
+{
+    font-size: 20px;
+    color:whitesmoke;
+    background-color: #d50032;
+    width: 88%;
+    height: 100%;
+}
+
+.champs {
+  width: 88%;
+  border: none;
+  border-bottom: 2px solid gray; 
+}
+
+.h3 {
+  color: green;
+}
+
+.forget {
+  margin-left: 48%;
 }
