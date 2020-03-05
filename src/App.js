@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header/index'
 
 function App() {
   return (
 
     <div>
-        <div class="navdbar">
-            <div class="navbar_base" >
-
-            </div>
-        </div>
+<Header></Header>
         <div className="App">
             <p>
                 <h2> DEJA UN COMPTE SEPHORA ? </h2>
