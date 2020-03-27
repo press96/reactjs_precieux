@@ -1,39 +1,25 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/index'
+import Header from './components/header/header'
+import Routes from './config/routes/routes'
+
 
 function App() {
   return (
-
     <div>
-<Header></Header>
-        <div className="App">
-            <p>
-                <h2> DEJA UN COMPTE SEPHORA ? </h2>
-            </p>
-            <p>
-                Connectez-vous pour retrouver vos avantages. 
-            </p>
-            <form >
-                <label>
-                    <input type="email" name="name" placeholder="Email*" class="champs"/>
-                </label>
-                <p/>
-                <label>
-                    <input type="password" name="password" placeholder ="Mot de passe*" class="champs" /> 
-                </label>
-                <p/>
-                <input type="submit" value="Me connecter" class="button"/> <h6><a href="forgetPasswordController" class="forget">Mot de passe oublié ?</a> </h6>
-            </form>
-
-            <h2> PAS ENCORE DE COMPTE ? </h2>
-            - Créez un compte pour profiter de tous les avantages. <br/>
-            - Rejoignez le <a href ="#">programme de fidélité</a> dès votre premier achat. <p/>
-            
-            <input type="submit" value="Créer un compte" class="button"/>
-        </div>
+      <Header/>
+      <Routes></Routes>
     </div>
   );
 }
 
 export default App;
+
+
+//================ Archive code =========================
+
+{/* <div>
+<Header></Header>
+<Form></Form>
+<Creation></Creation>
+</div> */}

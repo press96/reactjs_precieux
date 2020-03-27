@@ -1,0 +1,37 @@
+header {
+    display:flex;
+    max-height: 60px;
+    background:#0a0a02;
+    width:100%;
+    margin-left:;
+  }
+
+  .navbar_mobile {
+    width: 12px;
+    height: 44px;
+    background-color:;
+  }     
+
+.centre {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+  .iconUser {
+    color: white;
+    width: 50px;
+    margin-left: 290px;
+    margin-top: -28px;
+  } *
+
+  .iconShopping {
+    color: white;
+    width: 50px;
+    margin-left:330px ;
+    margin-top: -36px ;
+  }
+
+  /* .cheeseburgerMenu {
+    color: white;
+  } */
